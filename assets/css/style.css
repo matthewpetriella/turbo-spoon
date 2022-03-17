@@ -106,16 +106,31 @@ body {
 
 
 .card0 {
-    background: url('https://i.imgur.com/PihmcZp.png') center center no-repeat;
+    background: url('https://i.imgur.com/PihmcZp.png') top center no-repeat;
     background-size: 300px;
 }
 
 .card0:hover {
-    background: url('https://i.imgur.com/PihmcZp.png') top center no-repeat;
+    background: url('https://i.imgur.com/PihmcZp.png') center center no-repeat;
     background-size: 600px;
 }
     
 .card0 h2{
+    opacity: 1;
+    color: white;
+}
+
+.card1 {
+    background: url('https://i.imgur.com/uK3CfMt.png') top center no-repeat;
+    background-size: 300px;
+}
+
+.card1:hover {
+    background: url('https://i.imgur.com/uK3CfMt.png') center center no-repeat;
+    background-size: 600px;
+}
+    
+.card1 h2{
     opacity: 1;
     color: white;
 }
